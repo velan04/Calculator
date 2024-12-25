@@ -1,0 +1,47 @@
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400px;
+    row-gap: 10px;
+
+}
+button{
+   border-radius: 100%;
+   width: 80px;
+   height: 80px;
+   margin: auto;
+   font-size: x-large;
+   border: none;
+   background-color: gray;
+   color: whitesmoke;
+   font-weight: 800;
+
+}
+#display{
+    width: 400px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 2px;
+    margin-bottom: 10px;
+    font-size:x-large;
+
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 800px;
+   
+}
+.container{
+    background-color: rgb(29, 25, 25);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.op{
+    background-color: rgb(240, 177, 5);
+}
